@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: #3c3c3d;
+}
+
+.imgWrapper {
+    width: 30%;
+    display: flex;
+    text-decoration: none;
+}
+
+.img {
+    padding: 5px;
+}
+
+.label {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 0;
+    align-self: center;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding: 5px;
+    align-items: center;
+}
+
+.userImg {
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 50px;
+}
+
+.navItem {
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+.activeLink {
+    color: #1bd760;
+}

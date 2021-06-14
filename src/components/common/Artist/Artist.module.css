@@ -1,0 +1,30 @@
+.artist {
+    display: flex;
+    font-size: 20px;
+}
+
+.imgWrapper {
+
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.genres {
+    font-size: 16px;
+    color: #bdbcbc;
+    margin: 0;
+}
+
+.artistName {
+    margin: 0 0 10px 0;
+}

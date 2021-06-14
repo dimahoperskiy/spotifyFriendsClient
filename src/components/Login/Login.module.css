@@ -1,0 +1,108 @@
+.loginWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginInner {
+    position: relative;
+    border-radius: 22px;
+    background-color: #3c3c3d;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginBtn {
+    background-color: #1cd05d;
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    top: 40%;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+}
+
+.loginInnerUsr {
+    position: relative;
+    border-radius: 22px;
+    background-color: #3c3c3d;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.usernameBtn {
+    background-color: #1cd05d;
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.usernameBtn:hover {
+    cursor: pointer;
+}
+
+.bigWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.inputWrapper {
+    display: flex;
+    width: 50%;
+}
+
+.input {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstLabel {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.createLabel {
+    margin-top: 0;
+    font-size: 22px;
+}
